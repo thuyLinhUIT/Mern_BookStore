@@ -1,0 +1,71 @@
+.description {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+.navbar {
+  z-index: 1001;
+}
+
+.book-image {
+  max-width: 500px;
+  max-height: 1600px;
+  width: 100%;
+  height: auto;
+}
+
+.nav-link {
+  text-decoration: none;
+}
+
+.book-card a {
+  text-decoration: none;
+}
+
+.book-card button {
+  text-decoration: none;
+}
+
+.Sidebar a {
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.gradient-custom {
+  /* fallback for old browsers */
+  background: #f6d365;
+
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(
+    to right bottom,
+    rgba(246, 211, 101, 1),
+    rgba(253, 160, 133, 1)
+  );
+
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(
+    to right bottom,
+    rgba(246, 211, 101, 1),
+    rgba(253, 160, 133, 1)
+  );
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+header {
+  z-index: 1000;
+}

@@ -1,0 +1,30 @@
+.slide-content {
+  /* background-color: rgb(147 197 253); */
+  background-color: #dee2ff;
+  width: 260px;
+  height: 260px;
+  margin: auto;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 10px;
+}
+.user-image {
+  width: 90px;
+  height: 90px;
+  background-color: #e7ecef;
+  border-radius: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.user-photo {
+  border-radius: 45px;
+  width: 80px;
+}
+.user-testimonial {
+  font-size: large;
+}
